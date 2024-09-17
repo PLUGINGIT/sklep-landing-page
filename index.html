@@ -1,59 +1,66 @@
-<html>
-  <head>
-    <title>Sklep Landing Page</title>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep Świat Elektroniki</title>
     <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+</head>
+<body>
     <header>
-      <h1>Witamy w naszym sklepie!</h1>
-      <nav>
-        <ul>
-          <li><a href="#o-nas">O nas</a></li>
-          <li><a href="#produkty">Produkty</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
-      </nav>
+        <h1>Sklep Świat Elektroniki</h1>
+        <nav>
+            <ul>
+                <li><a href="#o-nas">O nas</a></li>
+                <li><a href="#produkty">Produkty</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
     </header>
 
+    <section id="banner">
+        <h2>Witaj w Świecie Nowoczesnej Elektroniki</h2>
+        <p>Odkryj nasz szeroki asortyment produktów elektronicznych i dołącz się do grona zadowolonych klientów.</p>
+        <a href="#produkty" class="button">Sprawdź nasze produkty</a>
+    </section>
+
     <section id="o-nas">
-      <h2>O nas</h2>
-      <p>Nasz sklep jest miejscem, gdzie pasja spotyka się z jakością. Zapewniamy szeroki wybór produktów, które są starannie wybierane, aby spełniać wysokie standardy.</p>
+        <h2>O nas</h2>
+        <p>Nasz sklep jest miejscem, gdzie pasja do technologii spotyka się z jakością. Oferujemy szeroki wybór produktów elektronicznych, od najnowszych smartfonów po zaawansowane komputery.</p>
     </section>
 
     <section id="produkty">
-      <h2>Nasze produkty</h2>
-      <div class="produkty-container">
-        <div class="produkt">
-          <img src="produkt1.jpg" alt="Produkt 1">
-          <h3>Produkt 1</h3>
-          <p>Opis produktu 1...</p>
+        <h2>Nasze produkty</h2>
+        <div class="produkty-lista">
+            <div class="produkt">
+                <img src="smartfon.jpg" alt="Smartfon X">
+                <h3>Smartfon X</h3>
+                <p>Najnowszy model z wyświetlnikiem OLED i potężną baterią.</p>
+                <a href="#" class="button">Szczegóły</a>
+            </div>
+            <div class="produkt">
+                <img src="laptop.jpg" alt="Laptop UltraBook">
+                <h3>Laptop UltraBook</h3>
+                <p>Lekki i wydajny laptop z ekranem QHD.</p>
+                <a href="#" class="button">Szczegóły</a>
+            </div>
+            …
         </div>
-        <div class="produkt">
-          <img src="produkt2.jpg" alt="Produkt 2">
-          <h3>Produkt 2</h3>
-          <p>Opis produktu 2...</p>
-        </div>
-        <div class="produkt">
-          <img src="produkt3.jpg" alt="Produkt 3">
-          <h3>Produkt 3</h3>
-          <p>Opis produktu 3...</p>
-        </div>
-      </div>
     </section>
 
     <section id="kontakt">
-      <h2>Kontakt</h2>
-      <p>Jeśli masz jakiekolwiek pytania, nie wahaj się skontaktować z nami:</p>
-      <ul>
-        <li>Email: sklep@example.com</li>
-        <li>Telefon: 123-456-7890</li>
-      </ul>
+        <h2>Kontakt</h2>
+        <p>Masz pytania lub chcesz skonsultować zakup? Skontaktuj się z nami:</p>
+        <address>
+            <a href="tel:+48123456789">+48 123 456 789</a><br>
+            <a href="mailto:kontakt@swiatelektroniki.pl">kontakt@swiatelektroniki.pl</a>
+        </address>
     </section>
 
     <footer>
-      <p>&copy; 2023 Sklep. Wszelkie prawa zastrzeżone.</p>
+        <p>&copy; 2023 Świat Elektroniki. Wszelkie prawa zastrzeżone.</p>
     </footer>
 
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
