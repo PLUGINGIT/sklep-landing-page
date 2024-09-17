@@ -1,0 +1,90 @@
+/* Plik: styles.css */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background-color: #444;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 2rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.produkty {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.produkt {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.produkt img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cena {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.opis {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
